@@ -17,7 +17,7 @@ Note that you need a ScaleDynamics account (create a FREE community account [her
 
 ## How to use
 
-Go in `frontend/react-app` folder and run those commands:
+Go in `react-app` folder and run those commands:
 
 ### Project setup
 
@@ -67,8 +67,8 @@ To deploy, select an existing environment or create a new one. For more details 
 ## Template structure
 
 This project is divided in two parts:
-  - the frontend, where you can find a `react-app` web template app (located in the `frontend/react-app` folder). It has been created with `create-react-app`. To update it, open the `src` folder where you can add, modify or delete components.
-  - the backend contains a `hello` node module and a MongoDB module. You can update the frontend/backend as you need to build your own app.
+  - the frontend, a `react-app` web template app created with `create-react-app`. To update it, open the `src` folder where you can add, modify or delete components.
+  - the backend with a node module and a MongoDB module. You can update the frontend/backend as you need to build your own app.
 
 Regarding MongoDB, we provide a template module  in the `src/mongodb.js`. To use your own MongoDB instance, replace the `URI` constant by your own.
 

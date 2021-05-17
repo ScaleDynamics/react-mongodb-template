@@ -13,15 +13,15 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "postinstall": "cd ../../backend/hello/ && npm install",
+    "postinstall": "cd ../backend/ && npm install",
     "prestart": "warp project select",
     "start:client": "react-scripts start",
-    "start:server": "warp dev ../../backend/hello/",
+    "start:server": "warp dev ../backend/",
     "start": "run-p start:*",
     "build:client": "react-scripts build",
-    "build:server": "warp build ../../backend/hello/",
+    "build:server": "warp build ../backend/",
     "build": "run-s build:server build:client",
-    "deploy": "warp deploy ./ ../../backend/hello/",
+    "deploy": "warp deploy ./ ../backend/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

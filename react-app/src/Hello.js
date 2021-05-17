@@ -1,7 +1,7 @@
 import React from 'react';
 
 // init ScaleDynamics Platform
-import * as Backend from './.backend/hello.js';
+import * as Backend from './.backend/backend.js';
 
 const { hello, fetchMovies } = new Backend();
 
