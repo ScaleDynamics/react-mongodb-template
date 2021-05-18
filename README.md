@@ -1,16 +1,16 @@
 <p align="center">
   <a href="https://scaledynamics.com/" target="_blank">
-    <img src="https://i.postimg.cc/GtWXnsxt/MERN-Stack.png" atl="MERN-Stack" />
+    <img src="https://i.postimg.cc/GtWXnsxt/MERN-Stack.png" alt="MERN-Stack" />
   <a>
 </p>
 
 # MERN ready to use template for ScaleDynamics platform
 
-> MERN stands for MongoDB, Express, React and Node.js Full Stack stack, which is one of the standard full stack stack for JavaScript developers.
+> MERN stands for MongoDB, Express, React and Node.js Full Stack, which is one of the standard full stack for JavaScript developers.
 
 This template is configured for the ScaleDynamics web platform. It is on MIT license and ready to use to build your own MERN based app/service. All is pre-configured: we provide one command to develop with live reload (frontend and backend) and one to deploy to make it live on a url.
 
-One particularity of our platform is that you don’t have to manage the Express.js layers, the platform manages them for you automatically, so you can focus only on the MongoDB/Node/React coding.
+One particularity of our platform is that you don’t have to manage the [Express](https://expressjs.com/) layers, the platform manages them for you automatically, so you can focus only on the MongoDB/Node/React coding.
 
 Note that you need a ScaleDynamics account (create a FREE community account [here](https://console.scaledynamics.com/auth/signup/)).
 
@@ -21,15 +21,15 @@ Go in `react-app` folder and run those commands:
 
 ### Project setup
 
-```ssh
+```sh
 npm install
 ```
 
-### Log onto the ScaleDynamics Platform
+### Log in to the ScaleDynamics Platform
 
-Then use your ScaleDynamics account credential to log onto the platform (create a FREE community account [here](https://console.scaledynamics.com/auth/signup/))
+Then use your ScaleDynamics account credential to log in to the platform (create a FREE community account [here](https://console.scaledynamics.com/auth/signup/))
 
-```ssh
+```sh
 npx warp login
 ```
 
@@ -48,13 +48,13 @@ Note that when running this command, you have to select a project. On the ScaleD
 
 First you have to compile and minify your project for production.
 
-```ssh
+```sh
 npm run build
 ```
 
 Then use the deploy command
 
-```ssh
+```sh
 npm run deploy
 ```
 
@@ -77,7 +77,7 @@ const URI = 'mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[de
 ```
 
 
-You can create new functions that can be called by the frontend. Add them in `index.js` or into another module and export it. The platform manages the Express.js layers automatically.
+You can create new functions that can be called by the frontend. Add them in `index.js` or into another module and export it. The platform manages the [Express](https://expressjs.com/) layers automatically.
 
 
 ```js
