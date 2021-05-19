@@ -14,18 +14,31 @@
 }
 
 .hello {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .mongodb {
-  margin-top: 20vh;
+  margin-top: 10vh;
+  font-size: 22px;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.results {
+  margin-top: 1vh;
+  font-size: 15px;
+  padding: 10px;
+  border: 5px solid #fff;
   width: 100%;
-  font-size: 18px;
+  height: 400px;
+  overflow: auto;
+}
+
+.centered {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 span > a {
