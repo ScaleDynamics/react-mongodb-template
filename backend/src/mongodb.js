@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 const URI = 'mongodb+srv://test:test@movies-scqxj.gcp.mongodb.net/';
 
 // create & connect a new MongoDB client
-const connection = MongoClient(URI, {
+const connection = new MongoClient(URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).connect();

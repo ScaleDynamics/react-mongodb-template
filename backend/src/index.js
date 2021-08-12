@@ -1,4 +1,4 @@
-const { fetchMovies } = require('./src/mongodb');
+const { fetchMovies } = require("./mongodb");
 
 const hello = () => {
   return `Hello from ScaleDynamics Platform, MongoDB, React and Node.js ${process.version} !`;

@@ -1,9 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "src/index.js",
   "dependencies": {
-    "mongodb": "^3.6.6"
+    "mongodb": "^4.1.0"
   }
 }
