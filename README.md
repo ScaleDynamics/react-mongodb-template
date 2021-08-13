@@ -8,7 +8,7 @@
 
 > MERN stands for MongoDB, Express, React and Node.js Full Stack, which is one of the standard full stack for JavaScript developers.
 
-This template is configured for the ScaleDynamics web platform. It is ready to use to build your own MERN based app/service. All is pre-configured: we provide one command to develop with live reload (frontend and backend) and one to deploy to make it live on a url.
+This template is configured for the ScaleDynamics platform. It is ready to use to build your own MERN based app/service. All is pre-configured: we provide one command to develop with live reload (frontend and backend) and one to deploy to make it live on a url.
 
 One particularity of our platform is that you don’t have to manage the [Express](https://expressjs.com/) layers, the platform manages them for you automatically, so you can focus only on the MongoDB/Node/React coding.
 
@@ -31,10 +31,10 @@ To enter a live-reload development session, use the command below. Feel free to 
 
 
 ```sh
-npm run start
+npm run dev
 ```
 
-Note that when running this command, you have to select a project. On the ScaleDynamics platform, a project identifies an application or a microservice. If you are logged, select an existing project or create a new one. Else, you can use the platform anonymously. For more details on projects, see the [documentation](https://docs.scaledynamics.com).
+Note that when running this command, you have to select a project. On the ScaleDynamics platform, a project identifies an application or a microservice. If you are logged, select an existing project or create a new one. You can also use the platform anonymously by selecting the `anonymous` project. For more details on projects, see the [documentation](https://docs.scaledynamics.com).
 
 #### Deploy with ScaleDynamics
 
@@ -94,10 +94,12 @@ const { myFunction } = new Backend();
 ## Documentation
 
 If you need more information, you can refer to the documentation:
-  - [ScaleDynamics Platform](https://docs.scaledynamics.com/docs/frameworks)
+  - [ScaleDynamics Platform](https://docs.scaledynamics.com/)
   - [React](https://reactjs.org/docs/getting-started.html)
   - [MongoDB](https://docs.mongodb.com/guides/)
 
-Here are some links to useful libraries :
-  - [Axios](https://github.com/axios/axios)
-  - [Parcel](https://parceljs.org/)
+
+## License
+
+Copyright 2021 ScaleDynamics SAS. All rights reserved.
+Licensed under the MIT license.
